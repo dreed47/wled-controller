@@ -1,0 +1,6 @@
+.DS_Store
+fp-info-cache
+model/EPS32-D1-Mini-Controller/wled-controller-backups
+model/EPS32-D1-Mini-Controller/V1-backups
+*.lck
+*.zip
