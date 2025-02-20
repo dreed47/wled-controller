@@ -25,7 +25,7 @@ Interactive [BOM can be found here](https://rawcdn.githack.com/dreed47/wled-cont
 
 ![image](/images/board.png)
 
-## ESP32 SMD Vesion
+## ESP32 SMD Version
 
 Interactive [BOM can be found here](https://rawcdn.githack.com/dreed47/wled-controller/main/bom_smd/ibom.html).
 
