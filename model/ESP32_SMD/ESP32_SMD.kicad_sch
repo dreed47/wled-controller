@@ -4254,12 +4254,6 @@
 		(uuid "24910365-59b4-4671-82b7-3c88f354bd0e")
 	)
 	(junction
-		(at 123.19 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ad9be4f-9344-40a4-8ba8-8c4c097bf211")
-	)
-	(junction
 		(at 218.44 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4270,6 +4264,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc26a01f-a4cf-4d89-b0e2-02a0ef9582c6")
+	)
+	(junction
+		(at 119.38 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c30a7ac3-d560-4ce0-9763-49f398fcd11b")
 	)
 	(junction
 		(at 204.47 100.33)
@@ -4362,16 +4362,6 @@
 			(type default)
 		)
 		(uuid "1005b7fc-ad82-497d-bab0-298d68746a9b")
-	)
-	(wire
-		(pts
-			(xy 123.19 72.39) (xy 123.19 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11e6a242-cc36-41ed-9c2a-2cf196b35788")
 	)
 	(wire
 		(pts
@@ -4472,6 +4462,26 @@
 			(type default)
 		)
 		(uuid "2bdd25a8-d4d0-419a-91f8-46b06d39b511")
+	)
+	(wire
+		(pts
+			(xy 121.92 62.23) (xy 121.92 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e61e731-f928-4b24-b578-81d92e85463e")
+	)
+	(wire
+		(pts
+			(xy 121.92 83.82) (xy 133.35 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f571511-a44f-4148-8d7f-0722a5a450c8")
 	)
 	(wire
 		(pts
@@ -4602,6 +4612,16 @@
 			(type default)
 		)
 		(uuid "55de32f5-cada-49fd-8d25-286ebb9f9fd7")
+	)
+	(wire
+		(pts
+			(xy 119.38 83.82) (xy 121.92 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "580f188e-bd25-49ba-af3c-3f3f7ee51129")
 	)
 	(wire
 		(pts
@@ -4765,7 +4785,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 83.82) (xy 121.92 83.82)
+			(xy 102.87 83.82) (xy 119.38 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4912,16 +4932,6 @@
 			(type default)
 		)
 		(uuid "a3e2174f-5bb3-4cce-86cd-315b16f74ccb")
-	)
-	(wire
-		(pts
-			(xy 123.19 83.82) (xy 133.35 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7778ad4-6fd4-4b99-a610-1b6429eefdc2")
 	)
 	(wire
 		(pts
@@ -5085,23 +5095,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 62.23) (xy 121.92 83.82)
+			(xy 119.38 66.04) (xy 119.38 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df6c4193-7773-4d1b-be91-7e211bc4743f")
-	)
-	(wire
-		(pts
-			(xy 121.92 83.82) (xy 123.19 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e11527ad-c1db-469f-bcb2-6b704846447d")
+		(uuid "d84ee81d-3058-4938-9164-88fda73b47cf")
 	)
 	(wire
 		(pts
@@ -5132,16 +5132,6 @@
 			(type default)
 		)
 		(uuid "e3aa6b2f-021d-4454-9b84-089f5d665769")
-	)
-	(wire
-		(pts
-			(xy 132.08 72.39) (xy 130.81 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2ca7ad1-53b4-4644-873f-69ea8f960c3d")
 	)
 	(wire
 		(pts
@@ -7196,7 +7186,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Screw_Terminal_01x04"
+		(property "Value" "Programming"
 			(at 43.18 139.6999 0)
 			(effects
 				(font
@@ -8083,7 +8073,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Buck Converter"
+		(property "Value" "Buck Converter +5V"
 			(at 61.468 42.926 90)
 			(effects
 				(font
@@ -9368,7 +9358,7 @@
 				)
 			)
 		)
-		(property "Value" "Reset"
+		(property "Value" "Boot"
 			(at 127 58.42 0)
 			(effects
 				(font
@@ -9576,7 +9566,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Buck Converter"
+		(property "Value" "Buck Converter +3.3V"
 			(at 89.408 44.196 90)
 			(effects
 				(font
@@ -10040,7 +10030,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 127 72.39 90)
+		(at 115.57 66.04 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10048,7 +10038,7 @@
 		(dnp no)
 		(uuid "ae50af79-3974-471d-95d4-fb228c94b02e")
 		(property "Reference" "R6"
-			(at 127 75.438 90)
+			(at 115.57 69.088 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10056,7 +10046,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 126.746 69.088 90)
+			(at 115.316 62.738 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10064,7 +10054,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
-			(at 127 74.168 90)
+			(at 115.57 67.818 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10073,7 +10063,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 127 72.39 0)
+			(at 115.57 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10082,7 +10072,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 127 72.39 0)
+			(at 115.57 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10957,7 +10947,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 132.08 72.39 0)
+		(at 111.76 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10966,7 +10956,7 @@
 		(fields_autoplaced yes)
 		(uuid "c68a4f23-b864-4b21-b059-68691555ebcb")
 		(property "Reference" "#PWR049"
-			(at 132.08 76.2 0)
+			(at 111.76 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10975,7 +10965,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 132.08 67.31 0)
+			(at 111.76 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10983,7 +10973,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 72.39 0)
+			(at 111.76 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10992,7 +10982,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 72.39 0)
+			(at 111.76 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11001,7 +10991,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 132.08 72.39 0)
+			(at 111.76 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
